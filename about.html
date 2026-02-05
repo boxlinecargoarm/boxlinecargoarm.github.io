@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About — Box Line Cargo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#071a2b;
+    --panel:#09253a;
+    --muted:#bcd0df;
+    --accent:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:white;
+    font-family:"Inter", sans-serif;
+    display:flex;
+    justify-content:center;
+    padding:22px;
+  }
+  .frame{
+    width:100%;
+    max-width:420px;
+    background:var(--panel);
+    padding:22px;
+    border-radius:4px;
+    border:1px solid rgba(255,255,255,0.07);
+    box-shadow:0 6px 30px rgba(2,8,16,0.5)
+  }
+
+  .topbar{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    font-weight:700;
+    color:var(--muted);
+    margin-bottom:35px;
+  }
+  .topbar a{
+    color:var(--muted);
+    text-decoration:none;
+    margin-left:10px;
+  }
+  .topbar a:hover{
+    color:white;
+  }
+
+  .content{
+    text-align:center;
+    font-weight:800;
+    font-size:14px;
+    line-height:1.45;
+    letter-spacing:0.3px;
+    text-transform:uppercase;
+    white-space:pre-line;
+  }
+
+  @media(min-width:900px){
+    body{padding:40px}
+    .frame{max-width:720px; padding:40px}
+    .content{font-size:18px; line-height:1.55;}
+  }
+</style>
+</head>
+<body>
+
+<div class="frame">
+
+  <div class="topbar">
+    <div><a href="index.html">HOME</a></div>
+
+    <div>
+      <a href="about.html">ABOUT</a>
+      <a href="#">CONTACT</a>
+    </div>
+  </div>
+
+  <div class="content">
+AT BOX LINE CARGO, WE CONNECT PEOPLE AND BUSINESSES ACROSS
+THE GLOBE WITH FAST, RELIABLE, AND SECURE DELIVERY SOLUTIONS.
+FROM LOCAL PARCELS TO INTERNATIONAL SHIPMENTS — EVEN CARGO
+OVER 50KG AND HEAVY GOODS — OUR MISSION IS SIMPLE:
+TO MAKE DISTANCE DISAPPEAR.
+
+WITH A DEDICATED TEAM, ADVANCED TRACKING SYSTEMS, AND WORLDWIDE
+PARTNERS, WE ENSURE EVERY PACKAGE ARRIVES SAFELY AND ON TIME.
+TRUST US WITH YOUR DELIVERIES — AND EXPERIENCE A WORLD
+THAT MOVES WITH YOU.
+
+WE MOVE WHAT MATTERS — FROM YOUR DOOR TO ANY DESTINATION
+WORLDWIDE. TOGEAR DELIVERY BRINGS SPEED, CARE, AND PRECISION
+TO EVERY MILE.
+
+TRUST US WITH YOUR DELIVERIES, AND WE’LL HANDLE THE REST.
+  </div>
+
+</div>
+
+</body>
+</html>
