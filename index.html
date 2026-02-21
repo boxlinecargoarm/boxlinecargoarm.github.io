@@ -2,61 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BOX LINE CARGO</title>
 
 <style>
-body {
-    margin: 0;
-    padding: 0;
-    background: #0C2A52;
-    font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
-    
+body{
+    margin:0;
+    padding:0;
+    background:#0C2A52;
+    font-family:Arial, sans-serif;
+    color:white;
+    text-align:center;
 }
 
-.wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
+.wrapper{
+    max-width:900px;
+    margin:0 auto;
+    padding:40px 15px;
 }
 
-h1, h2 {
-    font-weight: 800;
-    letter-spacing: 1px;
+h1{
+    font-weight:800;
+    letter-spacing:1px;
+    font-size:clamp(28px,6vw,48px);
 }
 
-.logo-wrapper {
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    margin: 40px auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+h2{
+    font-weight:800;
+    letter-spacing:1px;
+    font-size:clamp(18px,4vw,28px);
 }
 
-.logo-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.logo-wrapper{
+    width:min(260px,70vw);
+    height:min(260px,70vw);
+    border-radius:50%;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:white;
+    margin:40px auto;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
 }
 
-.divider {
-    width: 80%;
-    height: 1px;
-    background: white;
-    margin: 25px auto;
-    opacity: 0.4;
+.logo-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
 }
 
-.info {
-    font-size: 13px;
-    line-height: 1.6;
-    letter-spacing: 0.6px;
+.divider{
+    width:80%;
+    height:1px;
+    background:white;
+    margin:25px auto;
+    opacity:0.4;
+}
+
+.info{
+    font-size:clamp(12px,3vw,14px);
+    line-height:1.6;
+    letter-spacing:0.6px;
 }
 
 .social{
@@ -65,23 +72,21 @@ h1, h2 {
     justify-content:center;
     gap:20px;
 }
-.social a {
-    display: block;
-    font-weight: 900;
-    font-size: 35px;
-    margin: 10px 0;
-    text-decoration: underline;
-    color: white;
-}
+
 .social img{
-    width:60px;
-    margin:15px;
+    width:clamp(40px,12vw,60px);
     transition:0.2s;
 }
 
 .social img:hover{
     transform:scale(1.1);
-}    
+}
+
+@media (max-width:400px){
+    .social{
+        gap:12px;
+    }
+}
 </style>
 </head>
 
@@ -93,7 +98,7 @@ h1, h2 {
 <h2>COMING SOON</h2>
 
 <div class="logo-wrapper">
-    <img src="logo.png" alt="Box Line Cargo Logo">
+<img src="logo.png" alt="Box Line Cargo Logo">
 </div>
 
 <div class="divider"></div>
@@ -108,11 +113,11 @@ WAREHOUSE: ARARATYAN 90/7
 <div class="social">
 
 <a href="https://www.instagram.com/boxline_cargo?igsh=dnV0aWM0eGRzNWN1" target="_blank">
-    <img src="instagram.png" alt="Instagram">
+<img src="instagram.png" alt="Instagram">
 </a>
 
 <a href="https://www.facebook.com/people/BoxLine-Cargo/61582392177209/?mibextid=wwXIfr&rdid=H59lHsac74fXNPKn&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F14SbbVgkTA5%252F%253Fmibextid%253DwwXIfr" target="_blank">
-    <img src="facebook.png" alt="Facebook">
+<img src="facebook.png" alt="Facebook">
 </a>
 
 </div>
